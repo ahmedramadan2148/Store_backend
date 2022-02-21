@@ -110,3 +110,10 @@ TOKEN= token_secret
 ###
 > npm i --save-dev morgan
 
+
+
+## test Result for model 
+![img1](https://user-images.githubusercontent.com/95978415/154974437-4a93f5b5-9471-4da6-96c3-68297b95874e.PNG)
+![img2](https://user-images.githubusercontent.com/95978415/154974451-f789a9fd-233c-456f-9eb8-578b6b5ed2cb.PNG)
+![img3](https://user-images.githubusercontent.com/95978415/154974459-fb198595-116a-4c4f-a1eb-29bafe5ca18c.PNG)
+
