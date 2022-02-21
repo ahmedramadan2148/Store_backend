@@ -6,9 +6,11 @@ REQUIREMENT.md is contain the database description and schema
  
   ### GET 
   > http://localhost:3000/api/users        for get all users
+  ###
   > http://localhost:3000/api/users/:id    for get one user
   ### POST
   > http://localhost:3000/api/users/      for create user
+  ###
   > http://localhost:3000/api/users/auth/ for authenticate user
   ### DELETE
   > http://localhost:3000/api/users/:id  for delete user
@@ -18,6 +20,7 @@ REQUIREMENT.md is contain the database description and schema
 ## end point of product module 
    ### GET 
    >  http://localhost:3000/api/product/      for get all product
+   ###
    >  http://localhost:3000/api/product/:id   for get one product 
    
    ### POST 
