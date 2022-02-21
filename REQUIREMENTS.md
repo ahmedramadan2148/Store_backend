@@ -28,16 +28,16 @@ These are the notes from a meeting with the frontend developer that describe wha
 - lastName :string
 - email :string
 #### Product
--  id --> string generate uuid 
--  name --> string
--  price --> number
+-  id : string generate uuid 
+-  name : string
+-  price : number
 
 
 
 #### Orders
 - id string generate uuid 
 - user_id :uuid
-- status -->string
+- status :string
 #### order_product
 - quantity   :number
 - product_id :string generate uuid 
