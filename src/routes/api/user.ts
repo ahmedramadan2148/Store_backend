@@ -5,13 +5,13 @@ const routes =Router();
 
 routes.route('/')
 .get(auth,User.index)
-.post(User.createUser)
-.patch(User.update)
+.post(auth,User.createUser)
+.patch(auth,User.update)
 
 routes.route('/:id')
-.get(User.show)
+.get(auth,User.show)
 
-.delete(User.delete_user)
+.delete(auth,User.delete_user)
 
 routes.route("/auth").post(User.auth_user);
 export default routes;
